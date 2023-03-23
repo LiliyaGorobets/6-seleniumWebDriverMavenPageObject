@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LoginPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
-
     @FindBy(css = "#username")
     private WebElement loginField;
 
